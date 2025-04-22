@@ -13,4 +13,8 @@ There are 3 arguments:
 - `IGNORE_CASE`: This flag will ignore the case of the search term.
 
 To use IGNORE_CASE argument you can write the command as
+1. For MAC and LINUX:
 `IGNORE_CASE=1 minigrep <search_term> <file_path>`
+
+2. For Windows:
+'$env:IGNORE_CASE=1; .\minigrep <search_term> <file_path>`
