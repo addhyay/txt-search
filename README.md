@@ -17,4 +17,4 @@ To use IGNORE_CASE argument you can write the command as
 `IGNORE_CASE=1 minigrep <search_term> <file_path>`
 
 2. For Windows:
-'$env:IGNORE_CASE=1; .\minigrep <search_term> <file_path>`
+`$env:IGNORE_CASE=1; .\minigrep <search_term> <file_path>`
